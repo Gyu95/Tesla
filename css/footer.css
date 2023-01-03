@@ -3,16 +3,15 @@
   z-index: 100;
   bottom: 0;
   width: 100%;
-  height: 10%;
 }
 
 .footer ul {
   width: 90%;
-  margin: 2rem auto;
+  margin: 1rem auto;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin-bottom: 30px;
 }
 
@@ -24,30 +23,29 @@
 }
 
 .footer ul li a {
-  color: whitesmoke;
-  font-size: 1.3rem;
+  color: #d0d1d2
 }
 
 .footer .block_footer {
-  width: 30%;
+  width: 45%;
   margin: 0 auto;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .footer .block_footer p {
-  color: whitesmoke;
-  padding-bottom: 20px;
-  font-size: 1.5rem;
+  color: #d0d1d2;
+  padding-bottom: 10px;
+  font-size: 1rem;
   text-align: center;
 
 }
 
 .footer .block_footer a:link {
-  color: whitesmoke;
+  color: #d0d1d2;
   text-decoration: underline;
 }
 
 .footer .block_footer a:visited {
-  color: whitesmoke;
+  color: #d0d1d2;
   text-decoration: underline;
 }

@@ -41,14 +41,14 @@
 }
 
 .section_content_title {
-  font-size: 6rem;
+  font-size: 4rem;
   font-weight: bold;
 }
 
 .section_content_subtitle {
-  font-size: 2rem;
-  font-weight: 500;
-  padding-bottom: 2rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  padding-bottom: 1rem;
 }
 
 .section_content_subtitle a {
@@ -84,11 +84,11 @@
 }
 
 .section_action_btn {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 500;
-  padding: 4px 24px;
+  padding: 1rem;
   border-radius: 0.5rem;
-  flex-basis: 80%;
+  flex-basis: 60%;
   margin-bottom: 1rem;
   text-transform: capitalize;
 }
