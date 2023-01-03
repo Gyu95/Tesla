@@ -1,0 +1,53 @@
+.footer {
+  position: absolute;
+  z-index: 100;
+  bottom: 0;
+  width: 100%;
+  height: 10%;
+}
+
+.footer ul {
+  width: 90%;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.footer ul li {
+  margin: 0 1rem;
+  margin-top: 1rem;
+  text-transform: capitalize;
+  font-weight: 400;
+}
+
+.footer ul li a {
+  color: whitesmoke;
+  font-size: 1.3rem;
+}
+
+.footer .block_footer {
+  width: 30%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.footer .block_footer p {
+  color: whitesmoke;
+  padding-bottom: 20px;
+  font-size: 1.5rem;
+  text-align: center;
+
+}
+
+.footer .block_footer a:link {
+  color: whitesmoke;
+  text-decoration: underline;
+}
+
+.footer .block_footer a:visited {
+  color: whitesmoke;
+  text-decoration: underline;
+}
