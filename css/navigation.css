@@ -22,11 +22,11 @@
 
 .navigation ul li {
   width: 100%;
-  padding: 1.2rem 0;
+  padding: 1rem 0;
   padding-left: 2rem;
   margin-bottom: 0.5rem;
   cursor: pointer;
-  border-radius: 0.8rem;
+  border-radius: 0.5rem;
   transition: background-color 0.33s ease;
 }
 
@@ -66,4 +66,31 @@
 
 .blur_overlay.is--active {
   display: block;
+}
+
+.languages img {
+  width: 10%;
+  height: 10%;
+  margin: 5px 5px 0 0;
+
+
+}
+
+.languages .languages_ko {
+  width: 70%;
+  font-size: 1.3rem;
+  margin: 0 auto;
+  display: inline-block;
+
+}
+
+
+.languages .languages_ko a {
+  color: #393c41;
+  font-size: 1r em;
+}
+
+.languages .languages_ko a:hover {
+  text-decoration: underline;
+  color: #393c41;
 }
